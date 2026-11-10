@@ -1,0 +1,302 @@
+[
+ {
+  "l": "A1",
+  "d": "das Wasser",
+  "e": "water",
+  "p": "VAH-ser"
+ },
+ {
+  "l": "A1",
+  "d": "das Brot",
+  "e": "bread",
+  "p": "broht"
+ },
+ {
+  "l": "A1",
+  "d": "das Haus",
+  "e": "house",
+  "p": "house"
+ },
+ {
+  "l": "A1",
+  "d": "der Freund",
+  "e": "friend",
+  "p": "froynt"
+ },
+ {
+  "l": "A1",
+  "d": "die Familie",
+  "e": "family",
+  "p": "fah-MEE-lee-uh"
+ },
+ {
+  "l": "A1",
+  "d": "die Mutter",
+  "e": "mother",
+  "p": "MOO-ter"
+ },
+ {
+  "l": "A1",
+  "d": "der Vater",
+  "e": "father",
+  "p": "FAH-ter"
+ },
+ {
+  "l": "A1",
+  "d": "das Kind",
+  "e": "child",
+  "p": "kint"
+ },
+ {
+  "l": "A1",
+  "d": "der Name",
+  "e": "name",
+  "p": "NAH-muh"
+ },
+ {
+  "l": "A1",
+  "d": "das Essen",
+  "e": "food",
+  "p": "ES-en"
+ },
+ {
+  "l": "A1",
+  "d": "die Schule",
+  "e": "school",
+  "p": "SHOO-luh"
+ },
+ {
+  "l": "A1",
+  "d": "das Buch",
+  "e": "book",
+  "p": "bookh"
+ },
+ {
+  "l": "A1",
+  "d": "die Arbeit",
+  "e": "work",
+  "p": "AR-bite"
+ },
+ {
+  "l": "A1",
+  "d": "die Stadt",
+  "e": "city",
+  "p": "shtaht"
+ },
+ {
+  "l": "A1",
+  "d": "der Tag",
+  "e": "day",
+  "p": "tahk"
+ },
+ {
+  "l": "A1",
+  "d": "die Woche",
+  "e": "week",
+  "p": "VOKH-uh"
+ },
+ {
+  "l": "A1",
+  "d": "Hallo",
+  "e": "hello",
+  "p": "HAH-loh"
+ },
+ {
+  "l": "A1",
+  "d": "Danke",
+  "e": "thank you",
+  "p": "DAHN-kuh"
+ },
+ {
+  "l": "A1",
+  "d": "Bitte",
+  "e": "please / you're welcome",
+  "p": "BIT-tuh"
+ },
+ {
+  "l": "A1",
+  "d": "Tschüss",
+  "e": "bye",
+  "p": "tchooss"
+ },
+ {
+  "l": "A1",
+  "d": "Guten Morgen",
+  "e": "good morning",
+  "p": "GOO-ten MOR-gen"
+ },
+ {
+  "l": "A1",
+  "d": "Entschuldigung",
+  "e": "excuse me / sorry",
+  "p": "ent-SHUL-dee-goong"
+ },
+ {
+  "l": "A1",
+  "d": "heute",
+  "e": "today",
+  "p": "HOY-tuh"
+ },
+ {
+  "l": "A1",
+  "d": "morgen",
+  "e": "tomorrow",
+  "p": "MOR-gen"
+ },
+ {
+  "l": "A1",
+  "d": "gut",
+  "e": "good",
+  "p": "goot"
+ },
+ {
+  "l": "A1",
+  "d": "groß",
+  "e": "big",
+  "p": "grohss"
+ },
+ {
+  "l": "A1",
+  "d": "klein",
+  "e": "small",
+  "p": "kline"
+ },
+ {
+  "l": "A1",
+  "d": "trinken",
+  "e": "to drink",
+  "p": "TRINK-en"
+ },
+ {
+  "l": "A1",
+  "d": "Ja",
+  "e": "yes",
+  "p": "yah"
+ },
+ {
+  "l": "A1",
+  "d": "Nein",
+  "e": "no",
+  "p": "nine"
+ },
+ {
+  "l": "A2",
+  "d": "die Reise",
+  "e": "trip",
+  "p": "RYE-zuh"
+ },
+ {
+  "l": "A2",
+  "d": "der Urlaub",
+  "e": "vacation",
+  "p": "OOR-lowp"
+ },
+ {
+  "l": "A2",
+  "d": "das Wetter",
+  "e": "weather",
+  "p": "VET-er"
+ },
+ {
+  "l": "A2",
+  "d": "die Gesundheit",
+  "e": "health",
+  "p": "geh-ZOONT-hite"
+ },
+ {
+  "l": "A2",
+  "d": "der Termin",
+  "e": "appointment",
+  "p": "ter-MEEN"
+ },
+ {
+  "l": "A2",
+  "d": "die Wohnung",
+  "e": "apartment",
+  "p": "VOH-noong"
+ },
+ {
+  "l": "A2",
+  "d": "der Bahnhof",
+  "e": "train station",
+  "p": "BAHN-hohf"
+ },
+ {
+  "l": "A2",
+  "d": "einkaufen",
+  "e": "to shop",
+  "p": "INE-kow-fen"
+ },
+ {
+  "l": "A2",
+  "d": "besuchen",
+  "e": "to visit",
+  "p": "beh-ZOO-khen"
+ },
+ {
+  "l": "A2",
+  "d": "erklären",
+  "e": "to explain",
+  "p": "er-KLAIR-en"
+ },
+ {
+  "l": "A2",
+  "d": "vergessen",
+  "e": "to forget",
+  "p": "fer-GES-en"
+ },
+ {
+  "l": "A2",
+  "d": "wichtig",
+  "e": "important",
+  "p": "VIKH-tikh"
+ },
+ {
+  "l": "A2",
+  "d": "schwierig",
+  "e": "difficult",
+  "p": "SHVEER-ikh"
+ },
+ {
+  "l": "A2",
+  "d": "freundlich",
+  "e": "friendly",
+  "p": "FROYNT-likh"
+ },
+ {
+  "l": "A2",
+  "d": "müde",
+  "e": "tired",
+  "p": "MOO-duh"
+ },
+ {
+  "l": "A2",
+  "d": "die Erfahrung",
+  "e": "experience",
+  "p": "er-FAH-roong"
+ },
+ {
+  "l": "A2",
+  "d": "der Chef",
+  "e": "boss",
+  "p": "shef"
+ },
+ {
+  "l": "A2",
+  "d": "die Meinung",
+  "e": "opinion",
+  "p": "MY-noong"
+ },
+ {
+  "l": "A2",
+  "d": "sich freuen",
+  "e": "to be happy",
+  "p": "zikh FROY-en"
+ },
+ {
+  "l": "A2",
+  "d": "anrufen",
+  "e": "to call (phone)",
+  "p": "AHN-roo-fen"
+ }
+]
