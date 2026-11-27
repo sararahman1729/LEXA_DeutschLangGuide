@@ -1,0 +1,1 @@
+{ "name": "deutsch-app", "private": true, "scripts": { "add-words": "node scripts/add-words.mjs" } }

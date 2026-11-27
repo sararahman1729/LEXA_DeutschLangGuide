@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Deutsch Tag für Tag</title>
+<style>
+:root{--bg:#eef2f0;--surface:#fff;--ink:#1b2a2f;--muted:#5c6e72;--line:#d3ddda;--accent:#1e5b4f;--on:#fff;--gold:#c98a0b;--good:#1e7a4d;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1b1d;--surface:#172a2d;--ink:#e8f0ee;--muted:#9bb1b3;--line:#2a4245;--accent:#5fc2a8;--on:#0f1b1d;--gold:#f0b43c;--good:#5fd39a}}
+:root[data-theme="dark"]{--bg:#0f1b1d;--surface:#172a2d;--ink:#e8f0ee;--muted:#9bb1b3;--line:#2a4245;--accent:#5fc2a8;--on:#0f1b1d;--gold:#f0b43c;--good:#5fd39a}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.5 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif}
+main{max-width:600px;margin:0 auto;padding:18px 14px 40px}
+header{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:14px}
+h1{font:700 1.45rem/1.1 Georgia,"Iowan Old Style",serif;margin:0}
+h2{font:700 1.15rem/1.2 Georgia,serif;margin:22px 0 8px}
+select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:8px 10px}
+nav{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px;margin-bottom:18px;overflow-x:auto}
+nav button{flex:1;white-space:nowrap;border:0;background:none;color:var(--muted);font:inherit;font-weight:600;font-size:.92rem;padding:8px 10px;border-radius:9px;cursor:pointer}
+nav button[aria-selected="true"]{background:var(--accent);color:var(--on)}
+button:focus-visible,select:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--accent);outline-offset:2px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:14px 16px;margin-bottom:10px}
+.muted{color:var(--muted);font-size:.92rem}
+.word{display:flex;align-items:center;gap:12px}
+.word .t{flex:1;min-width:0}
+.de{font:700 1.5rem/1.15 Georgia,serif;overflow-wrap:anywhere}
+.pr{color:var(--gold);font-weight:600}
+.btn{border:1px solid var(--accent);background:var(--accent);color:var(--on);font:inherit;font-weight:600;border-radius:10px;padding:8px 14px;cursor:pointer}
+.btn.o{background:none;color:var(--accent)}
+.ic{border:1px solid var(--line);background:none;border-radius:50%;width:40px;height:40px;font-size:1.1rem;cursor:pointer;color:var(--ink)}
+.done .de{color:var(--good)}
+.bar{height:8px;background:var(--line);border-radius:4px;overflow:hidden;margin:6px 0 10px}
+.bar i{display:block;height:100%;background:var(--accent)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-bottom:12px}
+.stats div{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:10px;text-align:center}
+.stats b{display:block;font:700 1.6rem/1.1 Georgia,serif}
+.task{display:flex;gap:10px;align-items:flex-start}
+.task input{width:20px;height:20px;margin-top:3px;accent-color:var(--accent)}
+.task a{color:var(--accent);font-weight:600}
+table{width:100%;border-collapse:collapse;font-size:.94rem}
+td{padding:7px 8px;border-bottom:1px solid var(--line)}tr.now td{background:color-mix(in srgb,var(--accent) 16%,var(--surface));font-weight:600}
+details{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:12px 16px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600}summary span{color:var(--gold);margin-right:8px}
+.ex{font-family:Georgia,serif;font-size:1.05rem;color:var(--accent);margin:8px 0}
+.opt{display:block;width:100%;text-align:left;margin-bottom:8px}.btn.ok{background:var(--good);border-color:var(--good);color:var(--on)}.btn.no{border-color:#c0392b;color:#c0392b}.opt:disabled{opacity:1}
+.set{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0}
+</style>
+</head>
+<body>
+<main>
+<header><h1>Deutsch Tag für Tag</h1><select id="lvl" aria-label="Level"><option>A1</option><option>A2</option></select></header>
+<nav><button data-t="today">Today</button><button data-t="practice">Practice</button><button data-t="phrases">Phrases</button><button data-t="plan">Plan</button><button data-t="grammar">Grammar</button><button data-t="progress">Progress</button><button data-t="profile">Profile</button></nav>
+<section id="v"></section>
+</main>
+<script>
+let W=[],P=[],Qz=null;
+const G=[
+["a1","A1","Articles and gender","Every noun has a gender: der (masculine), die (feminine) or das (neuter). Nouns are always capitalised. Learn each noun together with its article.","der Mann · die Frau · das Kind"],
+["a2","A1","sein and haben","The two most important verbs. sein: ich bin, du bist, er/sie/es ist, wir sind, ihr seid, sie sind. haben: ich habe, du hast, er hat, wir haben, ihr habt, sie haben.","Ich bin müde. Ich habe Hunger."],
+["a3","A1","Present tense","Remove -en from the verb and add endings: -e, -st, -t, -en, -t, -en.","ich lerne · du lernst · er lernt · wir lernen"],
+["a4","A1","Word order","In a statement the verb is always in position 2. In a yes/no question it moves to position 1.","Heute lerne ich Deutsch. Lernst du Deutsch?"],
+["a5","A1","nicht and kein","Use kein to negate a noun with ein or no article. Use nicht for verbs, adjectives and everything else.","Ich habe kein Auto. Ich komme nicht."],
+["a6","A1","Accusative case","The object takes the accusative. Only the masculine changes: der → den, ein → einen.","Ich sehe den Mann. Ich habe einen Hund."],
+["b1","A2","Modal verbs","können, müssen, wollen, dürfen, sollen, mögen. The modal verb is in position 2 and the main verb goes to the end as an infinitive.","Ich muss heute arbeiten."],
+["b2","A2","Perfekt (past tense)","haben or sein in position 2 plus the past participle (ge-…-t / ge-…-en) at the end. Movement and change of state use sein.","Ich habe gelernt. Ich bin gefahren."],
+["b3","A2","Dative case","Used after mit, bei, nach, von, zu, aus, seit and for indirect objects: dem (m/n), der (f), den + -n (plural).","Ich fahre mit dem Bus."],
+["b4","A2","weil clauses","After weil the conjugated verb goes to the end of the clause.","Ich lerne, weil ich in Deutschland arbeite."]];
+const K="deutsch.v1";
+const def=()=>({level:"A1",perDay:5,learned:{},grammar:{},tasks:{},active:{},quiz:{r:0,t:0}});
+const fmt=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
+const today=()=>fmt(new Date());
+const wk=()=>{const d=new Date();d.setDate(d.getDate()-((d.getDay()+6)%7));return fmt(d)};
+const $=s=>document.querySelector(s);
+let S=def(),tab="today",openG=null,account=false,store=null,tm=null,armed=false;
+try{S=Object.assign(def(),JSON.parse(localStorage.getItem(K)))}catch(e){}
+function save(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}clearTimeout(tm);tm=setTimeout(async()=>{if(store)try{await store.set(S)}catch(e){}},600)}
+const lw=l=>W.filter(w=>w.l===l);
+const nL=l=>lw(l).filter(w=>S.learned[w.i]).length;
+const gL=l=>G.filter(g=>g[1]===l);
+const nG=l=>gL(l).filter(g=>S.grammar[g[0]]).length;
+const since=(o,d)=>Object.values(o).filter(v=>v>=d).length;
+const left=l=>Math.ceil(Math.max(0,lw(l).length-nL(l))/S.perDay);
+function streak(){let n=0,d=new Date();if(!S.active[fmt(d)])d.setDate(d.getDate()-1);while(S.active[fmt(d)]){n++;d.setDate(d.getDate()-1)}return n}
+function todayWords(){const t=today(),l=S.level,all=lw(l),dn=all.filter(w=>S.learned[w.i]===t),rest=all.filter(w=>!S.learned[w.i]);return[...dn,...rest.slice(0,Math.max(0,S.perDay-dn.length))]}
+function speak(t){try{const u=new SpeechSynthesisUtterance(t);u.lang="de-DE";speechSynthesis.cancel();speechSynthesis.speak(u)}catch(e){}}
+const yt=q=>"https://www.youtube.com/results?search_query="+encodeURIComponent(q);
+const bar=(a,b)=>`<div class="bar"><i style="width:${b?a/b*100:0}%"></i></div>`;
+
+function vToday(){
+  const ws=todayWords(),t=today(),n=ws.filter(w=>S.learned[w.i]===t).length;
+  const head=`<p class="muted">${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})} · ${S.level} · ${n} of ${S.perDay} words done today</p>${bar(n,S.perDay)}`;
+  if(!ws.length)return head+`<div class="card">You have finished all ${S.level} words. Switch level at the top or check the Plan tab.</div>`;
+  return head+ws.map(w=>{const d=S.learned[w.i]===t;return `<div class="card word${d?" done":""}"><button class="ic" data-a="say" data-i="${w.i}" aria-label="Listen to ${w.d}">🔊</button><div class="t"><div class="de">${w.d}</div>${w.p?`<div class="pr">${w.p}</div>`:""}<div class="muted">${w.e}</div></div><button class="btn${d?" o":""}" data-a="learn" data-i="${w.i}">${d?"Undo":"Learned"}</button></div>`}).join("")+(n===ws.length?`<div class="card">Done for today. See you tomorrow!</div>`:"");
+}
+function newQ(){const p=lw(S.level);if(p.length<4)return null;const w=p[Math.random()*p.length|0],o=[w];while(o.length<4){const x=p[Math.random()*p.length|0];if(!o.includes(x)&&x.e!==w.e)o.push(x)}return{w,o:o.sort(()=>Math.random()-.5),a:null}}
+function vPractice(){if(!Qz)Qz=newQ();if(!Qz)return`<div class="card">Not enough ${S.level} words yet for a quiz.</div>`;const q=S.quiz,z=Qz,d=z.a!==null;
+return`<p class="muted">Score: ${q.r} / ${q.t}</p><div class="card word"><button class="ic" data-a="say" data-i="${z.w.i}" aria-label="Listen">🔊</button><div class="de">${z.w.d}</div></div><p class="muted">What does it mean?</p>`+z.o.map((x,k)=>`<button class="btn o opt${d?(x===z.w?" ok":k===z.a?" no":""):""}" data-a="ans" data-k="${k}"${d?" disabled":""}>${x.e}</button>`).join("")+(d?`<button class="btn" data-a="next">Next</button>`:"")}
+function vPhrases(){const g={};P.forEach((p,i)=>(g[p.c]=g[p.c]||[]).push([p,i]));return Object.keys(g).map(c=>`<details data-g="p${c}"${openG==="p"+c?" open":""}><summary>${c}</summary>${g[c].map(([p,i])=>`<div class="set"><div><div class="de" style="font-size:1.1rem">${p.d}</div><div class="muted">${p.e}</div></div><button class="ic" data-a="sayp" data-i="${i}" aria-label="Listen">🔊</button></div>`).join("")}</details>`).join("")}
+function vPlan(){
+  const w=wk(),T=S.tasks[w]||{},goal=S.perDay*5,nw=since(S.learned,w),ng=since(S.grammar,w),L=S.level;
+  const rows=[{t:`Learn ${goal} new words (${Math.min(nw,goal)}/${goal})`,c:nw>=goal},{t:`Finish 2 grammar lessons (${Math.min(ng,2)}/2)`,c:ng>=2},
+  {id:"v1",t:`Watch a ${L} lesson on YouTube`,l:yt(`Learn German ${L} lesson for beginners`)},{id:"v2",t:"Watch a slow German listening video with subtitles",l:yt(`slow German listening practice ${L}`)},
+  {id:"r",t:"Say this week's words out loud"},{id:"s",t:"Write 5 sentences with this week's grammar"}];
+  const days=["Words","Grammar","Video lesson","Words","Grammar + review","Video + speaking","Rest or light review"],names=["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],ti=(new Date().getDay()+6)%7;
+  return `<h2 style="margin-top:0">This week's tasks</h2>`+rows.map(r=>`<div class="card task"><input type="checkbox" ${r.id?`data-a="task" data-id="${r.id}"`:"disabled"} ${(r.id?T[r.id]:r.c)?"checked":""} aria-label="${r.t}"><div>${r.t}${r.l?`<br><a href="${r.l}" target="_blank" rel="noopener">Search on YouTube</a>`:""}</div></div>`).join("")+
+  `<h2>Weekly routine</h2><table>${days.map((d,i)=>`<tr${i===ti?' class="now"':""}><td>${names[i]}</td><td>${d}</td></tr>`).join("")}</table>`;
+}
+function vGrammar(){return G.map(g=>`<details data-g="${g[0]}"${openG===g[0]?" open":""}><summary><span>${g[1]}</span>${g[2]}${S.grammar[g[0]]?" ✓":""}</summary><p>${g[3]}</p><div class="ex">${g[4]}</div><button class="btn${S.grammar[g[0]]?" o":""}" data-a="gram" data-id="${g[0]}">${S.grammar[g[0]]?"Mark as not done":"Mark as done"}</button></details>`).join("")}
+function vProgress(){
+  return ["A1","A2"].map(l=>{const n=nL(l),t=lw(l).length,g=nG(l),gt=gL(l).length;return `<div class="card"><b style="font:700 1.2rem Georgia,serif">${l}</b><div class="muted" style="margin-top:8px">Words learned: ${n} of ${t}</div>${bar(n,t)}<div class="muted">Grammar lessons: ${g} of ${gt}</div>${bar(g,gt)}<div class="muted">At ${S.perDay} words a day you need roughly <b>${left(l)} more days</b> to finish all ${t} ${l} words.</div></div>`}).join("");
+}
+function vProfile(){
+  const sel=(id,opts,v)=>`<select data-a="${id}" aria-label="${id}">${opts.map(o=>`<option${o==v?" selected":""}>${o}</option>`).join("")}</select>`;
+  return `<div class="stats"><div><b>${nL("A1")+nL("A2")}</b><span class="muted">words learned</span></div><div><b>${nG("A1")+nG("A2")}</b><span class="muted">grammar lessons</span></div><div><b>${streak()}</b><span class="muted">day streak</span></div></div>
+  <div class="card"><b>Account</b><p class="muted" style="margin:6px 0 0">Progress is saved in this browser only. Cross-device login needs a backend; see the README.</p></div>
+  <div class="card"><div class="set"><span>Current level</span>${sel("level",["A1","A2"],S.level)}</div><div class="set"><span>New words per day</span>${sel("perDay",[3,5,8,10,15],S.perDay)}</div>
+  <div class="set"><span>Days left for ${S.level}</span><b>${left(S.level)}</b></div></div>
+  <button class="btn o" data-a="reset">${armed?"Tap again to erase all progress":"Reset progress"}</button>`;
+}
+function render(){
+  document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===tab));
+  $("#lvl").value=S.level;
+  $("#v").innerHTML={today:vToday,practice:vPractice,phrases:vPhrases,plan:vPlan,grammar:vGrammar,progress:vProgress,profile:vProfile}[tab]();
+}
+const mark=()=>{S.active[today()]=1};
+document.addEventListener("click",e=>{
+  const n=e.target.closest("[data-t]");if(n){tab=n.dataset.t;armed=false;render();return}
+  const b=e.target.closest("button[data-a]");if(!b)return;const a=b.dataset.a,i=b.dataset.i;
+  if(a==="say")return speak(W[i].d.replace(/^(der|die|das) /,""));
+  if(a==="sayp")return speak(P[i].d);
+  if(a==="learn"){if(S.learned[i]===today())delete S.learned[i];else{S.learned[i]=today();mark()}}
+  else if(a==="gram"){const id=b.dataset.id;openG=id;if(S.grammar[id])delete S.grammar[id];else{S.grammar[id]=today();mark()}}
+  else if(a==="ans"){if(Qz.a===null){Qz.a=+b.dataset.k;S.quiz.t++;if(Qz.o[Qz.a]===Qz.w)S.quiz.r++;mark()}}
+  else if(a==="next"){Qz=null}
+  else if(a==="reset"){if(!armed){armed=true;render();return}S=def();armed=false}
+  save();render();
+});
+document.addEventListener("change",e=>{
+  const t=e.target;
+  if(t.id==="lvl"){S.level=t.value}
+  else if(t.dataset.a==="level"){S.level=t.value}
+  else if(t.dataset.a==="perDay"){S.perDay=+t.value}
+  else if(t.dataset.a==="task"){const w=wk();(S.tasks[w]=S.tasks[w]||{})[t.dataset.id]=t.checked;if(t.checked)mark()}
+  else return;
+  save();render();
+});
+document.addEventListener("toggle",e=>{const g=e.target.dataset&&e.target.dataset.g;if(g){if(e.target.open)openG=g;else if(openG===g)openG=null}},true);
+$("#v").innerHTML='<p class="muted">Loading words…</p>';
+Promise.all([fetch("data/words.json").then(r=>r.json()),fetch("data/phrases.json").then(r=>r.json())]).then(([d,p])=>{P=p;W=d.map((w,i)=>({i,l:w.l,d:w.d,e:w.e||"",p:w.p||""}));render()}).catch(()=>{$("#v").innerHTML='<div class="card">Could not load the data files.</div>'});
+</script>
+</body>
+</html>

@@ -17,3 +17,7 @@ Only ever append words. Progress is saved by each word's position in `data/words
 
 ## Not included
 Accounts and cross-device sync. Progress lives in each browser's localStorage. Real login needs a backend such as Supabase or Firebase Auth.
+
+## Practice and Phrases tabs
+- **Practice**: multiple-choice quiz drawn from the words of the current level. Score is saved in the browser.
+- **Phrases**: example sentences grouped by topic, each with a 🔊 button. Edit or append in `data/phrases.json` (`{"c": topic, "d": German, "e": English}`).
