@@ -3,7 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Deutsch Tag für Tag</title>
+<title>LEXA · Deutsch Lang Guide</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@600;700&display=swap" rel="stylesheet">
 <style>
 :root{--bg:#eef2f0;--surface:#fff;--ink:#1b2a2f;--muted:#5c6e72;--line:#d3ddda;--accent:#1e5b4f;--on:#fff;--gold:#c98a0b;--good:#1e7a4d;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0f1b1d;--surface:#172a2d;--ink:#e8f0ee;--muted:#9bb1b3;--line:#2a4245;--accent:#5fc2a8;--on:#0f1b1d;--gold:#f0b43c;--good:#5fd39a}}
@@ -45,14 +46,34 @@ summary{cursor:pointer;font-weight:600}summary span{color:var(--gold);margin-rig
 .ex{font-family:Georgia,serif;font-size:1.05rem;color:var(--accent);margin:8px 0}
 .opt{display:block;width:100%;text-align:left;margin-bottom:8px}.btn.ok{background:var(--good);border-color:var(--good);color:var(--on)}.btn.no{border-color:#c0392b;color:#c0392b}.opt:disabled{opacity:1}
 .set{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 0}
+
+:root:root:root{--bg:#14101f;--surface:#241b38;--ink:#f3ead3;--muted:#b9aa8a;--line:#43355f;--accent:#d4a437;--on:#1a1205;--gold:#d4a437;--good:#7fd39a}
+body{background:radial-gradient(circle at 50% 0,#2e2150,#14101f 70%) fixed}
+h1,h2,.brand,.de{font-family:Cinzel,Georgia,serif}
+.app{display:flex;gap:18px;max-width:1000px;margin:0 auto;padding:18px 14px;position:relative;z-index:1}
+aside{width:190px;flex:none}
+.brand{font-size:1.7rem;font-weight:700;color:var(--gold);letter-spacing:.1em}.brand small{display:block;font-size:.68rem;letter-spacing:.03em;color:var(--muted)}
+aside nav{flex-direction:column;position:sticky;top:14px;margin:12px 0 0}
+aside nav button{text-align:left;flex:none}
+.app main{flex:1;min-width:0;max-width:none;margin:0;padding:0 0 110px}
+header{align-items:flex-start}header>div:first-child{flex:1}
+#hi{font-size:1.5rem;color:var(--gold)}
+.top{display:flex;gap:10px;align-items:center}
+.av{width:44px;height:44px;border-radius:50%;border:2px solid var(--gold);background:var(--surface);font-size:1.3rem;cursor:pointer}
+.bg{position:fixed;left:0;right:0;bottom:0;height:48vh;opacity:.2;pointer-events:none;z-index:0;color:var(--gold)}.bg svg{width:100%;height:100%}
+#toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--surface);border:1px solid var(--gold);border-radius:12px;padding:10px 16px;opacity:0;transition:.25s;pointer-events:none;z-index:9;max-width:90%}#toast.show{opacity:1;transform:translate(-50%,0)}
+#wiz{position:fixed;right:16px;bottom:70px;width:84px;height:100px;cursor:grab;touch-action:none;z-index:8;animation:fl 3s ease-in-out infinite}#wiz svg,#wiz img{width:100%;height:100%;object-fit:contain;pointer-events:none}@keyframes fl{50%{translate:0 -6px}}
+@media(max-width:720px){.app{flex-direction:column}aside{width:auto}aside nav{flex-direction:row;position:static}aside nav button{flex:1}}
 </style>
 </head>
 <body>
-<main>
-<header><h1>Deutsch Tag für Tag</h1><select id="lvl" aria-label="Level"><option>A1</option><option>A2</option></select></header>
-<nav><button data-t="today">Today</button><button data-t="practice">Practice</button><button data-t="phrases">Phrases</button><button data-t="plan">Plan</button><button data-t="grammar">Grammar</button><button data-t="progress">Progress</button><button data-t="profile">Profile</button></nav>
-<section id="v"></section>
-</main>
+<div class="bg"><svg viewBox="0 0 800 260" preserveAspectRatio="xMidYMax slice" fill="currentColor" aria-hidden="true"><rect x="0" y="175" width="800" height="85"/><rect x="60" y="100" width="36" height="80"/><polygon points="54,100 102,100 78,40"/><rect x="170" y="130" width="60" height="50"/><rect x="330" y="70" width="44" height="110"/><polygon points="322,70 382,70 352,0"/><rect x="400" y="110" width="90" height="70"/><rect x="520" y="90" width="34" height="90"/><polygon points="514,90 560,90 537,30"/><rect x="620" y="120" width="50" height="60"/><polygon points="614,120 676,120 645,70"/><rect x="730" y="95" width="40" height="85"/><polygon points="724,95 776,95 750,35"/></svg></div>
+<div class="app"><aside><div class="brand">LEXA<small>(Deutsch Lang Guide)</small></div>
+<nav><button data-t="today">Today</button><button data-t="phrases">Phrases</button><button data-t="progress">Progress</button><button data-t="plan">Plan</button><button data-t="practice">Practice</button><button data-t="grammar">Grammar</button></nav></aside>
+<main><header><div><h1 id="hi">Guten Tag</h1><div id="hb"></div><div class="muted" id="dy"></div></div><div class="top"><select id="lvl" aria-label="Level"><option>A1</option><option>A2</option></select><button class="av" data-t="profile" aria-label="Profile">🧙</button></div></header>
+<section id="v"></section></main></div>
+<div id="wiz" role="button" aria-label="Wizard helper"><svg viewBox="0 0 80 100"><polygon points="40,2 58,40 22,40" fill="#4b2e83"/><ellipse cx="40" cy="40" rx="26" ry="6" fill="#3a2366"/><circle cx="40" cy="52" r="12" fill="#f2cfa5"/><path d="M18 98L26 62Q40 70 54 62L62 98Z" fill="#6b3fa0"/><line x1="60" y1="70" x2="76" y2="48" stroke="#d4a437" stroke-width="3"/><circle cx="77" cy="46" r="4" fill="#ffe27a"/></svg></div>
+<div id="toast"></div>
 <script>
 let W=[],P=[],Qz=null;
 const G=[
@@ -67,12 +88,12 @@ const G=[
 ["b3","A2","Dative case","Used after mit, bei, nach, von, zu, aus, seit and for indirect objects: dem (m/n), der (f), den + -n (plural).","Ich fahre mit dem Bus."],
 ["b4","A2","weil clauses","After weil the conjugated verb goes to the end of the clause.","Ich lerne, weil ich in Deutschland arbeite."]];
 const K="deutsch.v1";
-const def=()=>({level:"A1",perDay:5,learned:{},grammar:{},tasks:{},active:{},quiz:{r:0,t:0}});
+const def=()=>({level:"A1",perDay:5,learned:{},grammar:{},tasks:{},active:{},quiz:{r:0,t:0},name:"Sara",start:today()});
 const fmt=d=>d.getFullYear()+"-"+String(d.getMonth()+1).padStart(2,"0")+"-"+String(d.getDate()).padStart(2,"0");
 const today=()=>fmt(new Date());
 const wk=()=>{const d=new Date();d.setDate(d.getDate()-((d.getDay()+6)%7));return fmt(d)};
 const $=s=>document.querySelector(s);
-let S=def(),tab="today",openG=null,account=false,store=null,tm=null,armed=false;
+let S=def(),tt=null,tab="today",openG=null,account=false,store=null,tm=null,armed=false;
 try{S=Object.assign(def(),JSON.parse(localStorage.getItem(K)))}catch(e){}
 function save(){try{localStorage.setItem(K,JSON.stringify(S))}catch(e){}clearTimeout(tm);tm=setTimeout(async()=>{if(store)try{await store.set(S)}catch(e){}},600)}
 const lw=l=>W.filter(w=>w.l===l);
@@ -89,9 +110,9 @@ const bar=(a,b)=>`<div class="bar"><i style="width:${b?a/b*100:0}%"></i></div>`;
 
 function vToday(){
   const ws=todayWords(),t=today(),n=ws.filter(w=>S.learned[w.i]===t).length;
-  const head=`<p class="muted">${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})} · ${S.level} · ${n} of ${S.perDay} words done today</p>${bar(n,S.perDay)}`;
+  const head=`<p class="muted">${new Date().toLocaleDateString(undefined,{weekday:"long",day:"numeric",month:"long"})} · ${S.level} · ${n} of ${S.perDay} spells cast today</p>${bar(n,S.perDay)}`;
   if(!ws.length)return head+`<div class="card">You have finished all ${S.level} words. Switch level at the top or check the Plan tab.</div>`;
-  return head+ws.map(w=>{const d=S.learned[w.i]===t;return `<div class="card word${d?" done":""}"><button class="ic" data-a="say" data-i="${w.i}" aria-label="Listen to ${w.d}">🔊</button><div class="t"><div class="de">${w.d}</div>${w.p?`<div class="pr">${w.p}</div>`:""}<div class="muted">${w.e}</div></div><button class="btn${d?" o":""}" data-a="learn" data-i="${w.i}">${d?"Undo":"Learned"}</button></div>`}).join("")+(n===ws.length?`<div class="card">Done for today. See you tomorrow!</div>`:"");
+  return head+ws.map(w=>{const d=S.learned[w.i]===t;return `<div class="card word${d?" done":""}"><button class="ic" data-a="say" data-i="${w.i}" aria-label="Listen to ${w.d}">🔊</button><div class="t"><div class="de">${w.d}</div>${w.p?`<div class="pr">${w.p}</div>`:""}<div class="muted">${w.e}</div></div><button class="btn${d?" o":""}" data-a="learn" data-i="${w.i}">${d?"Undo":"🪄 Cast spell"}</button></div>`}).join("")+(n===ws.length?`<div class="card">Done for today. See you tomorrow!</div>`:"");
 }
 function newQ(){const p=lw(S.level);if(p.length<4)return null;const w=p[Math.random()*p.length|0],o=[w];while(o.length<4){const x=p[Math.random()*p.length|0];if(!o.includes(x)&&x.e!==w.e)o.push(x)}return{w,o:o.sort(()=>Math.random()-.5),a:null}}
 function vPractice(){if(!Qz)Qz=newQ();if(!Qz)return`<div class="card">Not enough ${S.level} words yet for a quiz.</div>`;const q=S.quiz,z=Qz,d=z.a!==null;
@@ -114,13 +135,14 @@ function vProfile(){
   const sel=(id,opts,v)=>`<select data-a="${id}" aria-label="${id}">${opts.map(o=>`<option${o==v?" selected":""}>${o}</option>`).join("")}</select>`;
   return `<div class="stats"><div><b>${nL("A1")+nL("A2")}</b><span class="muted">words learned</span></div><div><b>${nG("A1")+nG("A2")}</b><span class="muted">grammar lessons</span></div><div><b>${streak()}</b><span class="muted">day streak</span></div></div>
   <div class="card"><b>Account</b><p class="muted" style="margin:6px 0 0">Progress is saved in this browser only. Cross-device login needs a backend; see the README.</p></div>
+  <div class="card"><div class="set"><span>Your name</span><input data-a="name" value="${S.name}" maxlength="20" style="font:inherit;background:var(--surface);color:var(--ink);border:1px solid var(--line);border-radius:10px;padding:8px;width:9em"></div></div>
   <div class="card"><div class="set"><span>Current level</span>${sel("level",["A1","A2"],S.level)}</div><div class="set"><span>New words per day</span>${sel("perDay",[3,5,8,10,15],S.perDay)}</div>
   <div class="set"><span>Days left for ${S.level}</span><b>${left(S.level)}</b></div></div>
   <button class="btn o" data-a="reset">${armed?"Tap again to erase all progress":"Reset progress"}</button>`;
 }
 function render(){
   document.querySelectorAll("nav button").forEach(b=>b.setAttribute("aria-selected",b.dataset.t===tab));
-  $("#lvl").value=S.level;
+  $("#lvl").value=S.level;const A=nL(S.level),B=lw(S.level).length;$("#hi").textContent="Guten Tag, "+S.name;$("#hb").innerHTML=bar(A,B);$("#dy").textContent="Day "+(Math.floor((new Date(today())-new Date(S.start))/864e5)+1)+" · "+A+" of "+B+" spells learned";
   $("#v").innerHTML={today:vToday,practice:vPractice,phrases:vPhrases,plan:vPlan,grammar:vGrammar,progress:vProgress,profile:vProfile}[tab]();
 }
 const mark=()=>{S.active[today()]=1};
@@ -129,7 +151,7 @@ document.addEventListener("click",e=>{
   const b=e.target.closest("button[data-a]");if(!b)return;const a=b.dataset.a,i=b.dataset.i;
   if(a==="say")return speak(W[i].d.replace(/^(der|die|das) /,""));
   if(a==="sayp")return speak(P[i].d);
-  if(a==="learn"){if(S.learned[i]===today())delete S.learned[i];else{S.learned[i]=today();mark()}}
+  if(a==="learn"){if(S.learned[i]===today())delete S.learned[i];else{S.learned[i]=today();mark();toast("✨ Spell learned: "+W[i].d)}}
   else if(a==="gram"){const id=b.dataset.id;openG=id;if(S.grammar[id])delete S.grammar[id];else{S.grammar[id]=today();mark()}}
   else if(a==="ans"){if(Qz.a===null){Qz.a=+b.dataset.k;S.quiz.t++;if(Qz.o[Qz.a]===Qz.w)S.quiz.r++;mark()}}
   else if(a==="next"){Qz=null}
@@ -139,6 +161,7 @@ document.addEventListener("click",e=>{
 document.addEventListener("change",e=>{
   const t=e.target;
   if(t.id==="lvl"){S.level=t.value}
+  else if(t.dataset.a==="name"){S.name=t.value.trim()||"Sara"}
   else if(t.dataset.a==="level"){S.level=t.value}
   else if(t.dataset.a==="perDay"){S.perDay=+t.value}
   else if(t.dataset.a==="task"){const w=wk();(S.tasks[w]=S.tasks[w]||{})[t.dataset.id]=t.checked;if(t.checked)mark()}
@@ -147,7 +170,16 @@ document.addEventListener("change",e=>{
 });
 document.addEventListener("toggle",e=>{const g=e.target.dataset&&e.target.dataset.g;if(g){if(e.target.open)openG=g;else if(openG===g)openG=null}},true);
 $("#v").innerHTML='<p class="muted">Loading words…</p>';
-Promise.all([fetch("data/words.json").then(r=>r.json()),fetch("data/phrases.json").then(r=>r.json())]).then(([d,p])=>{P=p;W=d.map((w,i)=>({i,l:w.l,d:w.d,e:w.e||"",p:w.p||""}));render()}).catch(()=>{$("#v").innerHTML='<div class="card">Could not load the data files.</div>'});
+const J=u=>fetch(u).then(r=>{if(!r.ok)throw u;return r.json()});
+J("data/phrases.json").then(p=>{P=p;if(tab==="phrases")render()}).catch(()=>{});
+J("data/words.json").then(d=>{W=d.map((w,i)=>({i,l:w.l,d:w.d,e:w.e||"",p:w.p||""}));render()}).catch(u=>{$("#v").innerHTML='<div class="card">Could not load '+u+'. Open the site through its web address (Vercel or localhost), not as a local file, and make sure the data folder is deployed.</div>'});
+function toast(t){const e=$("#toast");e.textContent=t;e.className="show";clearTimeout(tt);tt=setTimeout(()=>e.className="",2200)}
+const tips={today:"Cast each spell: learn the word, tap 🔊, then press the wand!",practice:"Test your magic: pick the right meaning.",phrases:"Tap 🔊 to hear whole sentences.",plan:"Tick off this week's tasks.",grammar:"Open a lesson and mark it done.",progress:"Watch your magic grow!",profile:"Set your name and spells per day."};
+const wz=$("#wiz");let dr=null;
+const im=new Image();im.onload=()=>{wz.innerHTML="";wz.append(im)};im.src="assets/wizard.gif";
+wz.addEventListener("pointerdown",e=>{dr={x:e.clientX,y:e.clientY,l:wz.offsetLeft,t:wz.offsetTop,m:false};wz.setPointerCapture(e.pointerId)});
+wz.addEventListener("pointermove",e=>{if(!dr)return;const dx=e.clientX-dr.x,dy=e.clientY-dr.y;if(Math.abs(dx)+Math.abs(dy)>5)dr.m=true;if(dr.m){wz.style.left=dr.l+dx+"px";wz.style.top=dr.t+dy+"px";wz.style.right=wz.style.bottom="auto"}});
+wz.addEventListener("pointerup",()=>{if(dr&&!dr.m)toast("🧙 "+tips[tab]);dr=null});
 </script>
 </body>
 </html>
