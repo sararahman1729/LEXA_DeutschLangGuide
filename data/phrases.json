@@ -1,0 +1,207 @@
+[
+ {
+  "c": "Greetings",
+  "d": "Guten Morgen! Wie geht es Ihnen?",
+  "e": "Good morning! How are you? (formal)"
+ },
+ {
+  "c": "Greetings",
+  "d": "Ich heiße Ali und komme aus Bangladesch.",
+  "e": "My name is Ali and I come from Bangladesh."
+ },
+ {
+  "c": "Greetings",
+  "d": "Ich wohne in Hamburg.",
+  "e": "I live in Hamburg."
+ },
+ {
+  "c": "Greetings",
+  "d": "Ich bin 25 Jahre alt.",
+  "e": "I am 25 years old."
+ },
+ {
+  "c": "Greetings",
+  "d": "Ich spreche Bengalisch, Englisch und ein bisschen Deutsch.",
+  "e": "I speak Bengali, English and a little German."
+ },
+ {
+  "c": "Greetings",
+  "d": "Freut mich, Sie kennenzulernen.",
+  "e": "Nice to meet you."
+ },
+ {
+  "c": "Greetings",
+  "d": "Meine Hobbys sind Lesen und Fußball.",
+  "e": "My hobbies are reading and football."
+ },
+ {
+  "c": "In class",
+  "d": "Ich verstehe nicht.",
+  "e": "I do not understand."
+ },
+ {
+  "c": "In class",
+  "d": "Noch einmal, bitte.",
+  "e": "Once more, please."
+ },
+ {
+  "c": "In class",
+  "d": "Langsamer, bitte.",
+  "e": "More slowly, please."
+ },
+ {
+  "c": "In class",
+  "d": "Wie sagt man das auf Deutsch?",
+  "e": "How do you say that in German?"
+ },
+ {
+  "c": "In class",
+  "d": "Was bedeutet das?",
+  "e": "What does that mean?"
+ },
+ {
+  "c": "In class",
+  "d": "Können Sie mir helfen?",
+  "e": "Can you help me?"
+ },
+ {
+  "c": "Shopping",
+  "d": "Wie viel kostet das?",
+  "e": "How much does that cost?"
+ },
+ {
+  "c": "Shopping",
+  "d": "Das ist zu teuer.",
+  "e": "That is too expensive."
+ },
+ {
+  "c": "Shopping",
+  "d": "Ich suche eine Jacke.",
+  "e": "I am looking for a jacket."
+ },
+ {
+  "c": "Shopping",
+  "d": "Kann ich mit Karte zahlen?",
+  "e": "Can I pay by card?"
+ },
+ {
+  "c": "Shopping",
+  "d": "Ich nehme das.",
+  "e": "I'll take it."
+ },
+ {
+  "c": "Shopping",
+  "d": "Ich möchte vier Brötchen und ein Brot, bitte.",
+  "e": "I would like four rolls and a loaf of bread, please."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Einen Tisch für zwei Personen, bitte.",
+  "e": "A table for two, please."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Die Speisekarte, bitte.",
+  "e": "The menu, please."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Ich möchte einen Kaffee, bitte.",
+  "e": "I would like a coffee, please."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Ich bin allergisch gegen Nüsse.",
+  "e": "I am allergic to nuts."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Die Rechnung, bitte.",
+  "e": "The bill, please."
+ },
+ {
+  "c": "Restaurant",
+  "d": "Guten Appetit!",
+  "e": "Enjoy your meal!"
+ },
+ {
+  "c": "Directions",
+  "d": "Entschuldigung, wo ist der Bahnhof?",
+  "e": "Excuse me, where is the station?"
+ },
+ {
+  "c": "Directions",
+  "d": "Wie komme ich zum Bahnhof?",
+  "e": "How do I get to the station?"
+ },
+ {
+  "c": "Directions",
+  "d": "Gehen Sie geradeaus bis zur Ampel. Dann links.",
+  "e": "Go straight to the traffic light. Then left."
+ },
+ {
+  "c": "Directions",
+  "d": "Das ist fünf Minuten zu Fuß.",
+  "e": "It is five minutes on foot."
+ },
+ {
+  "c": "Directions",
+  "d": "Eine Fahrkarte nach Hamburg, bitte.",
+  "e": "A ticket to Hamburg, please."
+ },
+ {
+  "c": "Daily life",
+  "d": "Ich stehe um sieben Uhr auf.",
+  "e": "I get up at seven o'clock."
+ },
+ {
+  "c": "Daily life",
+  "d": "Wir kaufen im Supermarkt ein.",
+  "e": "We shop at the supermarket."
+ },
+ {
+  "c": "Daily life",
+  "d": "Heute lerne ich Deutsch.",
+  "e": "Today I am learning German."
+ },
+ {
+  "c": "Daily life",
+  "d": "Ich kann gut schwimmen.",
+  "e": "I can swim well."
+ },
+ {
+  "c": "Daily life",
+  "d": "Ich habe Hunger und Durst.",
+  "e": "I am hungry and thirsty."
+ },
+ {
+  "c": "Daily life",
+  "d": "Gestern bin ich ins Kino gegangen.",
+  "e": "Yesterday I went to the cinema."
+ },
+ {
+  "c": "Daily life",
+  "d": "Ich habe Pizza gegessen.",
+  "e": "I ate pizza."
+ },
+ {
+  "c": "Health",
+  "d": "Ich brauche einen Termin, bitte.",
+  "e": "I need an appointment, please."
+ },
+ {
+  "c": "Health",
+  "d": "Ich habe Kopfschmerzen und Fieber.",
+  "e": "I have a headache and a fever."
+ },
+ {
+  "c": "Health",
+  "d": "Mir tut der Kopf weh.",
+  "e": "My head hurts."
+ },
+ {
+  "c": "Health",
+  "d": "Gute Besserung!",
+  "e": "Get well soon!"
+ }
+]
