@@ -1,0 +1,1460 @@
+[
+ {
+  "l": "A1",
+  "d": "das Wasser",
+  "e": "water",
+  "p": "VAH-ser"
+ },
+ {
+  "l": "A1",
+  "d": "das Brot",
+  "e": "bread",
+  "p": "broht"
+ },
+ {
+  "l": "A1",
+  "d": "das Haus",
+  "e": "house",
+  "p": "house"
+ },
+ {
+  "l": "A1",
+  "d": "der Freund",
+  "e": "friend",
+  "p": "froynt"
+ },
+ {
+  "l": "A1",
+  "d": "die Familie",
+  "e": "family",
+  "p": "fah-MEE-lee-uh"
+ },
+ {
+  "l": "A1",
+  "d": "die Mutter",
+  "e": "mother",
+  "p": "MOO-ter"
+ },
+ {
+  "l": "A1",
+  "d": "der Vater",
+  "e": "father",
+  "p": "FAH-ter"
+ },
+ {
+  "l": "A1",
+  "d": "das Kind",
+  "e": "child",
+  "p": "kint"
+ },
+ {
+  "l": "A1",
+  "d": "der Name",
+  "e": "name",
+  "p": "NAH-muh"
+ },
+ {
+  "l": "A1",
+  "d": "das Essen",
+  "e": "food",
+  "p": "ES-en"
+ },
+ {
+  "l": "A1",
+  "d": "die Schule",
+  "e": "school",
+  "p": "SHOO-luh"
+ },
+ {
+  "l": "A1",
+  "d": "das Buch",
+  "e": "book",
+  "p": "bookh"
+ },
+ {
+  "l": "A1",
+  "d": "die Arbeit",
+  "e": "work",
+  "p": "AR-bite"
+ },
+ {
+  "l": "A1",
+  "d": "die Stadt",
+  "e": "city",
+  "p": "shtaht"
+ },
+ {
+  "l": "A1",
+  "d": "der Tag",
+  "e": "day",
+  "p": "tahk"
+ },
+ {
+  "l": "A1",
+  "d": "die Woche",
+  "e": "week",
+  "p": "VOKH-uh"
+ },
+ {
+  "l": "A1",
+  "d": "Hallo",
+  "e": "hello",
+  "p": "HAH-loh"
+ },
+ {
+  "l": "A1",
+  "d": "Danke",
+  "e": "thank you",
+  "p": "DAHN-kuh"
+ },
+ {
+  "l": "A1",
+  "d": "Bitte",
+  "e": "please / you're welcome",
+  "p": "BIT-tuh"
+ },
+ {
+  "l": "A1",
+  "d": "Tschüss",
+  "e": "bye",
+  "p": "tchooss"
+ },
+ {
+  "l": "A1",
+  "d": "Guten Morgen",
+  "e": "good morning",
+  "p": "GOO-ten MOR-gen"
+ },
+ {
+  "l": "A1",
+  "d": "Entschuldigung",
+  "e": "excuse me / sorry",
+  "p": "ent-SHUL-dee-goong"
+ },
+ {
+  "l": "A1",
+  "d": "heute",
+  "e": "today",
+  "p": "HOY-tuh"
+ },
+ {
+  "l": "A1",
+  "d": "morgen",
+  "e": "tomorrow",
+  "p": "MOR-gen"
+ },
+ {
+  "l": "A1",
+  "d": "gut",
+  "e": "good",
+  "p": "goot"
+ },
+ {
+  "l": "A1",
+  "d": "groß",
+  "e": "big",
+  "p": "grohss"
+ },
+ {
+  "l": "A1",
+  "d": "klein",
+  "e": "small",
+  "p": "kline"
+ },
+ {
+  "l": "A1",
+  "d": "trinken",
+  "e": "to drink",
+  "p": "TRINK-en"
+ },
+ {
+  "l": "A1",
+  "d": "Ja",
+  "e": "yes",
+  "p": "yah"
+ },
+ {
+  "l": "A1",
+  "d": "Nein",
+  "e": "no",
+  "p": "nine"
+ },
+ {
+  "l": "A2",
+  "d": "die Reise",
+  "e": "trip",
+  "p": "RYE-zuh"
+ },
+ {
+  "l": "A2",
+  "d": "der Urlaub",
+  "e": "vacation",
+  "p": "OOR-lowp"
+ },
+ {
+  "l": "A2",
+  "d": "das Wetter",
+  "e": "weather",
+  "p": "VET-er"
+ },
+ {
+  "l": "A2",
+  "d": "die Gesundheit",
+  "e": "health",
+  "p": "geh-ZOONT-hite"
+ },
+ {
+  "l": "A2",
+  "d": "der Termin",
+  "e": "appointment",
+  "p": "ter-MEEN"
+ },
+ {
+  "l": "A2",
+  "d": "die Wohnung",
+  "e": "apartment",
+  "p": "VOH-noong"
+ },
+ {
+  "l": "A2",
+  "d": "der Bahnhof",
+  "e": "train station",
+  "p": "BAHN-hohf"
+ },
+ {
+  "l": "A2",
+  "d": "einkaufen",
+  "e": "to shop",
+  "p": "INE-kow-fen"
+ },
+ {
+  "l": "A2",
+  "d": "besuchen",
+  "e": "to visit",
+  "p": "beh-ZOO-khen"
+ },
+ {
+  "l": "A2",
+  "d": "erklären",
+  "e": "to explain",
+  "p": "er-KLAIR-en"
+ },
+ {
+  "l": "A2",
+  "d": "vergessen",
+  "e": "to forget",
+  "p": "fer-GES-en"
+ },
+ {
+  "l": "A2",
+  "d": "wichtig",
+  "e": "important",
+  "p": "VIKH-tikh"
+ },
+ {
+  "l": "A2",
+  "d": "schwierig",
+  "e": "difficult",
+  "p": "SHVEER-ikh"
+ },
+ {
+  "l": "A2",
+  "d": "freundlich",
+  "e": "friendly",
+  "p": "FROYNT-likh"
+ },
+ {
+  "l": "A2",
+  "d": "müde",
+  "e": "tired",
+  "p": "MOO-duh"
+ },
+ {
+  "l": "A2",
+  "d": "die Erfahrung",
+  "e": "experience",
+  "p": "er-FAH-roong"
+ },
+ {
+  "l": "A2",
+  "d": "der Chef",
+  "e": "boss",
+  "p": "shef"
+ },
+ {
+  "l": "A2",
+  "d": "die Meinung",
+  "e": "opinion",
+  "p": "MY-noong"
+ },
+ {
+  "l": "A2",
+  "d": "sich freuen",
+  "e": "to be happy",
+  "p": "zikh FROY-en"
+ },
+ {
+  "l": "A2",
+  "d": "anrufen",
+  "e": "to call (phone)",
+  "p": "AHN-roo-fen"
+ },
+ {
+  "l": "A1",
+  "d": "der Bruder",
+  "e": "brother",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Schwester",
+  "e": "sister",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Eltern",
+  "e": "parents",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Sohn",
+  "e": "son",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Tochter",
+  "e": "daughter",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Großvater",
+  "e": "grandfather",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Großmutter",
+  "e": "grandmother",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Onkel",
+  "e": "uncle",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Tante",
+  "e": "aunt",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Geschwister",
+  "e": "siblings",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "verheiratet",
+  "e": "married",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "ledig",
+  "e": "single",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Brötchen",
+  "e": "bread roll",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Butter",
+  "e": "butter",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Käse",
+  "e": "cheese",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Ei",
+  "e": "egg",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Wurst",
+  "e": "sausage",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Fleisch",
+  "e": "meat",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Hähnchen",
+  "e": "chicken",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Fisch",
+  "e": "fish",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Reis",
+  "e": "rice",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Nudeln",
+  "e": "noodles",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Kartoffel",
+  "e": "potato",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Gemüse",
+  "e": "vegetables",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Obst",
+  "e": "fruit",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Apfel",
+  "e": "apple",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Banane",
+  "e": "banana",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Tomate",
+  "e": "tomato",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Salat",
+  "e": "salad",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Suppe",
+  "e": "soup",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Kuchen",
+  "e": "cake",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Milch",
+  "e": "milk",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Kaffee",
+  "e": "coffee",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Tee",
+  "e": "tea",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Saft",
+  "e": "juice",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Bier",
+  "e": "beer",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Wein",
+  "e": "wine",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Frühstück",
+  "e": "breakfast",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Mittagessen",
+  "e": "lunch",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Abendessen",
+  "e": "dinner",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Zucker",
+  "e": "sugar",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Salz",
+  "e": "salt",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Wohnung",
+  "e": "flat / apartment",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Zimmer",
+  "e": "room",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Küche",
+  "e": "kitchen",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Badezimmer",
+  "e": "bathroom",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Balkon",
+  "e": "balcony",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Garten",
+  "e": "garden",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Tür",
+  "e": "door",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Fenster",
+  "e": "window",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Tisch",
+  "e": "table",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Stuhl",
+  "e": "chair",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Bett",
+  "e": "bed",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Schrank",
+  "e": "wardrobe / cupboard",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Lampe",
+  "e": "lamp",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Miete",
+  "e": "rent",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Schlüssel",
+  "e": "key",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Bahnhof",
+  "e": "train station",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Haltestelle",
+  "e": "bus / tram stop",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Flughafen",
+  "e": "airport",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Bank",
+  "e": "bank",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Post",
+  "e": "post office",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Supermarkt",
+  "e": "supermarket",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Bäckerei",
+  "e": "bakery",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Apotheke",
+  "e": "pharmacy",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Krankenhaus",
+  "e": "hospital",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Kino",
+  "e": "cinema",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Park",
+  "e": "park",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Straße",
+  "e": "street",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Platz",
+  "e": "square",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Dorf",
+  "e": "village",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Büro",
+  "e": "office",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Auto",
+  "e": "car",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Bus",
+  "e": "bus",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die U-Bahn",
+  "e": "underground",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Straßenbahn",
+  "e": "tram",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Zug",
+  "e": "train",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Fahrrad",
+  "e": "bicycle",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Flugzeug",
+  "e": "aeroplane",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Fahrkarte",
+  "e": "ticket",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Gleis",
+  "e": "platform / track",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Lehrer",
+  "e": "teacher",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Arzt",
+  "e": "doctor",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Student",
+  "e": "student",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Ingenieur",
+  "e": "engineer",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Verkäufer",
+  "e": "shop assistant",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Koch",
+  "e": "cook / chef",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Kellner",
+  "e": "waiter",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Kopf",
+  "e": "head",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Auge",
+  "e": "eye",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Ohr",
+  "e": "ear",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Nase",
+  "e": "nose",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Mund",
+  "e": "mouth",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Hand",
+  "e": "hand",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Bauch",
+  "e": "stomach",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Rücken",
+  "e": "back",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Bein",
+  "e": "leg",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Fuß",
+  "e": "foot",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Herz",
+  "e": "heart",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Fieber",
+  "e": "fever",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Husten",
+  "e": "cough",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Kopfschmerzen",
+  "e": "headache",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Termin",
+  "e": "appointment",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "krank",
+  "e": "ill",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "gesund",
+  "e": "healthy",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Regen",
+  "e": "rain",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Schnee",
+  "e": "snow",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "die Sonne",
+  "e": "sun",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "der Wind",
+  "e": "wind",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "wohnen",
+  "e": "to live",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "arbeiten",
+  "e": "to work",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "lernen",
+  "e": "to learn",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "kaufen",
+  "e": "to buy",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "essen",
+  "e": "to eat",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "sprechen",
+  "e": "to speak",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "verstehen",
+  "e": "to understand",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schreiben",
+  "e": "to write",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "lesen",
+  "e": "to read",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "fahren",
+  "e": "to drive / travel",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "kommen",
+  "e": "to come",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "gehen",
+  "e": "to go",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "helfen",
+  "e": "to help",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "kochen",
+  "e": "to cook",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "bezahlen",
+  "e": "to pay",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "besuchen",
+  "e": "to visit",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "bestellen",
+  "e": "to order",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "suchen",
+  "e": "to look for",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "warten",
+  "e": "to wait",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "fragen",
+  "e": "to ask",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "antworten",
+  "e": "to answer",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schlafen",
+  "e": "to sleep",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schwimmen",
+  "e": "to swim",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "tanzen",
+  "e": "to dance",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "singen",
+  "e": "to sing",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "öffnen",
+  "e": "to open",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schließen",
+  "e": "to close",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "bringen",
+  "e": "to bring",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "zeigen",
+  "e": "to show",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "brauchen",
+  "e": "to need",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "kosten",
+  "e": "to cost",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "bleiben",
+  "e": "to stay",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "heißen",
+  "e": "to be called",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "treffen",
+  "e": "to meet",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "fliegen",
+  "e": "to fly",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "reisen",
+  "e": "to travel",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "neu",
+  "e": "new",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "alt",
+  "e": "old",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "jung",
+  "e": "young",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schlecht",
+  "e": "bad",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schön",
+  "e": "beautiful",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "teuer",
+  "e": "expensive",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "billig",
+  "e": "cheap",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schnell",
+  "e": "fast",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "langsam",
+  "e": "slow",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "leicht",
+  "e": "light / easy",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schwer",
+  "e": "heavy / hard",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "einfach",
+  "e": "easy / simple",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schwierig",
+  "e": "difficult",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "früh",
+  "e": "early",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "spät",
+  "e": "late",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "laut",
+  "e": "loud",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "leise",
+  "e": "quiet",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "müde",
+  "e": "tired",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "glücklich",
+  "e": "happy",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "traurig",
+  "e": "sad",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "freundlich",
+  "e": "friendly",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "nett",
+  "e": "nice",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "wichtig",
+  "e": "important",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "sauber",
+  "e": "clean",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schmutzig",
+  "e": "dirty",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "rot",
+  "e": "red",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "blau",
+  "e": "blue",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "grün",
+  "e": "green",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "gelb",
+  "e": "yellow",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schwarz",
+  "e": "black",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "weiß",
+  "e": "white",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "immer",
+  "e": "always",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "oft",
+  "e": "often",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "manchmal",
+  "e": "sometimes",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "selten",
+  "e": "rarely",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "nie",
+  "e": "never",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "sehr",
+  "e": "very",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "auch",
+  "e": "also",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "nur",
+  "e": "only",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "schon",
+  "e": "already",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "noch",
+  "e": "still / yet",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "gern",
+  "e": "gladly / like to",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "lieber",
+  "e": "rather / prefer",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "hier",
+  "e": "here",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "dort",
+  "e": "there",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "gestern",
+  "e": "yesterday",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "jetzt",
+  "e": "now",
+  "p": ""
+ },
+ {
+  "l": "A1",
+  "d": "das Wochenende",
+  "e": "weekend",
+  "p": ""
+ }
+]
