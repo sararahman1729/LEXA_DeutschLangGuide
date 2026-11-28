@@ -63,6 +63,9 @@ header{align-items:flex-start}header>div:first-child{flex:1}
 .bg{position:fixed;left:0;right:0;bottom:0;height:48vh;opacity:.2;pointer-events:none;z-index:0;color:var(--gold)}.bg svg{width:100%;height:100%}
 #toast{position:fixed;left:50%;bottom:24px;transform:translate(-50%,20px);background:var(--surface);border:1px solid var(--gold);border-radius:12px;padding:10px 16px;opacity:0;transition:.25s;pointer-events:none;z-index:9;max-width:90%}#toast.show{opacity:1;transform:translate(-50%,0)}
 #wiz{position:fixed;right:16px;bottom:70px;width:84px;height:100px;cursor:grab;touch-action:none;z-index:8;animation:fl 3s ease-in-out infinite}#wiz svg,#wiz img{width:100%;height:100%;object-fit:contain;pointer-events:none}@keyframes fl{50%{translate:0 -6px}}
+.bg{top:0;opacity:1;height:auto;background:linear-gradient(rgba(20,16,31,.55),rgba(20,16,31,.88)),url(assets/hogwarts.jpg) center/cover no-repeat}.bg svg{position:absolute;left:0;bottom:0;height:48%;opacity:.2}.bg.img svg{display:none}
+#wc{position:fixed;left:0;top:0;width:44px;height:54px;pointer-events:none;z-index:99;display:none}#wc svg,#wc img{width:100%;height:100%}
+@media(pointer:fine){html.wc,html.wc *{cursor:none!important}html.wc input{cursor:text!important}}
 @media(max-width:720px){.app{flex-direction:column}aside{width:auto}aside nav{flex-direction:row;position:static}aside nav button{flex:1}}
 </style>
 </head>
@@ -175,8 +178,11 @@ J("data/phrases.json").then(p=>{P=p;if(tab==="phrases")render()}).catch(()=>{});
 J("data/words.json").then(d=>{W=d.map((w,i)=>({i,l:w.l,d:w.d,e:w.e||"",p:w.p||""}));render()}).catch(u=>{$("#v").innerHTML='<div class="card">Could not load '+u+'. Open the site through its web address (Vercel or localhost), not as a local file, and make sure the data folder is deployed.</div>'});
 function toast(t){const e=$("#toast");e.textContent=t;e.className="show";clearTimeout(tt);tt=setTimeout(()=>e.className="",2200)}
 const tips={today:"Cast each spell: learn the word, tap 🔊, then press the wand!",practice:"Test your magic: pick the right meaning.",phrases:"Tap 🔊 to hear whole sentences.",plan:"Tick off this week's tasks.",grammar:"Open a lesson and mark it done.",progress:"Watch your magic grow!",profile:"Set your name and spells per day."};
+const bgi=new Image();bgi.onload=()=>document.querySelector(".bg").classList.add("img");bgi.src="assets/hogwarts.jpg";
 const wz=$("#wiz");let dr=null;
-const im=new Image();im.onload=()=>{wz.innerHTML="";wz.append(im)};im.src="assets/wizard.gif";
+if(matchMedia("(pointer:fine)").matches){const c=document.createElement("div");c.id="wc";c.innerHTML=wz.innerHTML;document.body.append(c);document.documentElement.classList.add("wc");
+addEventListener("mousemove",e=>{c.style.display="block";c.style.transform=`translate(${e.clientX-42}px,${e.clientY-25}px)`});document.addEventListener("mouseleave",()=>c.style.display="none");window.wc=c}
+const im=new Image();im.onload=()=>{wz.innerHTML="";wz.append(im);if(window.wc){window.wc.innerHTML="";window.wc.append(im.cloneNode())}};im.src="assets/wizard.gif";
 wz.addEventListener("pointerdown",e=>{dr={x:e.clientX,y:e.clientY,l:wz.offsetLeft,t:wz.offsetTop,m:false};wz.setPointerCapture(e.pointerId)});
 wz.addEventListener("pointermove",e=>{if(!dr)return;const dx=e.clientX-dr.x,dy=e.clientY-dr.y;if(Math.abs(dx)+Math.abs(dy)>5)dr.m=true;if(dr.m){wz.style.left=dr.l+dx+"px";wz.style.top=dr.t+dy+"px";wz.style.right=wz.style.bottom="auto"}});
 wz.addEventListener("pointerup",()=>{if(dr&&!dr.m)toast("🧙 "+tips[tab]);dr=null});
